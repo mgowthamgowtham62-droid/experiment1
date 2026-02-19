@@ -1,15 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
     <title>Jenkins Experiment 1</title>
-    <style>
-        body { font-family: sans-serif; text-align: center; background-color: #f0f8ff; }
-        .version { color: #2a9d8f; font-weight: bold; }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Welcome to My Jenkins App</h1>
-    <p>This site was deployed via a Jenkins Pipeline.</p>
-    <p>Current Status: <span class="version">Version 1.0 - Initial Launch</span></p>
+    <div class="container">
+        <h1>Jenkins Pipeline App</h1>
+        <p>This application is integrated with GitHub.</p>
+        <p>Status: <span id="version-tag">Version 1.0</span></p>
+        <p id="time-display"></p>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
